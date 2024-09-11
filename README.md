@@ -17,5 +17,23 @@ journey
 
 ```
 
-# HEADER 1 
+# HEADER 1
+
+``` mermaid 
+---
+title: Example Git diagram
+---
+gitGraph
+   commit id: "becho"
+   commit id: "begre"
+   branch develop
+   checkout develop
+   commit id: "fattaru"
+   commit id: "OG"
+   checkout main
+   merge develop
+   commit id: "dens mamma"
+   commit id: "i git"
+
+```
 
